@@ -1,12 +1,15 @@
 import "../styles/App.css";
+import BiomedicDashboard from "./BiomedicDashboard";
+import InputsDashboard from "./InputsDashboard";
+import ProstheticHandView from "./ProstheticHandView";
 
 function App() {
 
   return (
     <div className="App flex items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        ¡Tailwind está funcionando! 🎉
-      </h1>
+      <BiomedicDashboard/>
+      <ProstheticHandView/>
+      <InputsDashboard/>
     </div>
   );
 }
